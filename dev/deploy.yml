@@ -18,7 +18,7 @@ spec:
         app: nft1
     spec:
       containers:
-      - image: shishirkhandelwal/nft:0.5
+      - image: shishirkhandelwal/nft:0.4
         name: nft
         command: ["/bin/bash","-c","npm run-script start"]
         resources: {}
